@@ -1,7 +1,8 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-    min-height: 100vh;
+    min-height: 100vh; /* in case browser does not support svh */ 
+    min-height: 100svh; /* take into account mobile header on */
     margin: 0;
     padding: 0;
     display: flex;
